@@ -15,11 +15,11 @@ function johnLennonFacts() {
   "He was a choir boy and boy scout",
   "He hated the sound of his own voice"
 ];
-  let emArray = [];
+  let lennonArray = [];
   let i = 0;
-  while (emArray.length < facts.length) {
-    emArray.push(`${facts[i]}!!!);
+  while (lennonArray.length < facts.length) {
+    lennonArray.push(`${facts[i]}!!!);
     i++;
   }
-  return emArray;
+  return lennonArray;
 }
