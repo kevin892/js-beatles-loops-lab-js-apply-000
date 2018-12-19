@@ -14,6 +14,15 @@ function johnLennonFacts(facts) {
   while (j < facts.length) {
     lennonArray.push(`${facts[j]}!!!`);
     j++;
-  }
+  };
   return lennonArray;
-}
+};
+
+function iLoveTheBeatles(num){
+  let loveArray = [];
+  do { 
+    loveArray.push('I love the Beatles!'); 
+    num++;
+    
+  } while (num < 15);
+};
