@@ -9,11 +9,11 @@ return emArray;
 };
 
 function johnLennonFacts(facts) {
-  let results = [];
+  let lennonArray = [];
   let j = 0;
   while (j < facts.length) {
-    results.push(`${facts[j]}!!!`);
+    lennonArray.push(`${facts[j]}!!!`);
     j++;
   }
-  return results;
+  return lennonArray;
 }
