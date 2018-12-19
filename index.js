@@ -9,7 +9,7 @@ return emArray;
 };
 
 function johnLennonFacts(facts) {
-  const facts = [
+  let facts = [
   "He was the last Beatle to learn to drive",
   "He was never a vegetarian",
   "He was a choir boy and boy scout",
